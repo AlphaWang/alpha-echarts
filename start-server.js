@@ -10,7 +10,7 @@ http.createServer(function (req, res) {
         pathname+="/";
     }
     if (pathname.charAt(pathname.length-1)=="/"){
-        pathname+="demo2.html";
+        pathname+="index.html";
     }
 
     fs.exists(pathname,function(exists){
